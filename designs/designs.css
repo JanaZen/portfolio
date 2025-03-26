@@ -13,7 +13,7 @@ img {
   position: relative;
   align-items: center;
   top: 1350px;
-  left:310px;
+  left:290px;
 }
 
 h1 {
@@ -47,6 +47,14 @@ h2 {
   align-items: center;
   top: 200px;
   right: 500px;
+}
+
+.preloader {
+  
+  position: absolute;
+  align-items: right;
+  top: 200px;
+  right: 50px;
 }
 
 a {
