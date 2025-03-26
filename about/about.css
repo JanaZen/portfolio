@@ -18,7 +18,6 @@
 
 .animation-container {
   position: absolute;
-  width: 700px; /* Nastav šířku podle potřeby */
   overflow: hidden; /* Skryj přetečení */
   align-items: left;
   top: 400px;
@@ -35,11 +34,9 @@
   align-items: center;
 }
 
-/* .video {
+.video {
   
-left: 450px;
-  top:790px;
-  height: 480px;
+ height: 480px;
 
 }
 
