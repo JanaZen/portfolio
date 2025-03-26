@@ -9,7 +9,9 @@ img {
 }
 
 .latky {
-
+  
+  position: absolute;
+  align-items: center;
   top: 550px;
   right:500px;
 }
