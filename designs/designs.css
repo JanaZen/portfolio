@@ -6,6 +6,7 @@ img {
 
   height: 350px;
   display: flexbox;
+  align-items: center;
 
 }
 
@@ -48,3 +49,8 @@ a:hover {
   color: #f78419;
 }
 
+.latky {
+
+  top: 550px;
+  right:500px;
+}
