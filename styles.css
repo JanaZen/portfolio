@@ -1,74 +1,60 @@
-#frame1 {
-  background-image: url(image/ANIMACE_ZAVERECKA01.png);
-  background-size: cover; /* Obrázek pokryje celý frame */
-  background-position: center; /* Zarovnej obrázek na střed */
-}
-
-#frame2 {
-  background-image: url(image/ANIMACE_ZAVERECKACKA02.png);
-  background-size: cover; /* Obrázek pokryje celý frame */
-  background-position: center; /* Zarovnej obrázek na střed */
-}
-
-#frame3 {
-  background-image: url(image/ANIMACE_ZAVERECKA03.png);
-  background-size: cover; /* Obrázek pokryje celý frame */
-  background-position: center; /* Zarovnej obrázek na střed */
-}
 
 .animation-container {
   position: absolute;
-  width: 800px; /* Nastav šířku podle potřeby */
-  height: 800px; /* Nastav výšku podle potřeby */
-  overflow: hidden; /* Skryj přetečení */
-  top: 150px;
-  right: 250px;
+  overflow: hidden;
+  align-items: left;
+  top: 250px;
+  right: 100px;
 }
 
 .frame {
-  background-color: none;
-  position: absolute;
-  width: 800px;
-  height: 800px;
-  opacity: 1;
-  transition: opacity 0.5s;
+  width: 700px;
+  height: 556px;
   align-items: center;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.frame.active {
-  animation: fadeIn 0.5s forwards;
-}
-
-.frame.hidden {
-  animation: fadeOut 0.5s forwards;
-}
-
-body {
+.frame img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: auto;
-  width: 1024px;
-  background-color: #121a1d;
+
+  animation: image-cycle 1.5s infinite step-start;
+  animation-play-state: paused;
 }
 
+.frame:nth-of-type(1) img {
+  animation-delay: 0s;
+  opacity: 1;
+}
+.frame:nth-of-type(2) img {
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+.frame:nth-of-type(3) img {
+  animation-delay: 1s;
+  opacity: 0;
+}
 
+.animation-container:hover img {
+  animation-play-state: running;
+}
 
+@keyframes image-cycle {
+  0% {
+    opacity: 1;
+  }
+  33.33% {
+    opacity: 1;
+  }
+  33.34% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 
 h1 {
