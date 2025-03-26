@@ -4,12 +4,12 @@
   overflow: hidden;
   align-items: left;
   top: 250px;
-  right: 100px;
+  right: 200px;
 }
 
 .frame {
-  width: 700px;
-  height: 556px;
+  width: 850px;
+  height: 850px;
   align-items: center;
 }
 
