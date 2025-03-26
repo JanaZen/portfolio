@@ -1,7 +1,4 @@
-
-
-    
-    body {
+body {
         
         margin: 0;
         padding: 0;
@@ -69,6 +66,7 @@
                         top: 770px;
                         right: 745px;
                         position: absolute;
+                        text-decoration: none;
                         text-align: center;
                         height: 700px;
                         width: 400px;
