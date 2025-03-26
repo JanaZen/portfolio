@@ -18,7 +18,7 @@
 
 .animation-container {
   position: absolute;
-  width: 1280px; /* Nastav šířku podle potřeby */
+  width: 700px; /* Nastav šířku podle potřeby */
   overflow: hidden; /* Skryj přetečení */
   align-items: left;
   top: 400px;
