@@ -1,72 +1,62 @@
-#frame1 {
-  background-image: url(images/ANIMACE_ZAVERECKA_KOCKA.png);
-  background-size: cover; /* Obrázek pokryje celý frame */
-  background-position: center; /* Zarovnej obrázek na střed */
-}
-
-#frame2 {
-  background-image: url(images/ANIMACE_ZAVERECKA_KOCKA2.png);
-  background-size: cover; /* Obrázek pokryje celý frame */
-  background-position: center; /* Zarovnej obrázek na střed */
-}
-
-#frame3 {
-  background-image: url(images/ANIMACE_ZAVERECKA_KOCKA3.png);
-  background-size: cover; /* Obrázek pokryje celý frame */
-  background-position: center; /* Zarovnej obrázek na střed */
-}
-
 .animation-container {
   position: absolute;
-  overflow: hidden; /* Skryj přetečení */
+  overflow: hidden;
   align-items: left;
   top: 250px;
   left: 100px;
 }
 
 .frame {
-  background-color: none;
-  position: absolute;
   width: 700px;
   height: 556px;
-  opacity: 1;
-  transition: opacity 0.5s;
   align-items: center;
 }
 
-.video {
-  
- height: 480px;
+.frame img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
 
+  animation: image-cycle 1.5s infinite step-start;
+  animation-play-state: paused;
 }
 
-/* Přidání klíčových snímků pro animaci */
-@keyframes fadeIn {
+.frame:nth-of-type(1) img {
+  animation-delay: 0s;
+  opacity: 1;
+}
+.frame:nth-of-type(2) img {
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+.frame:nth-of-type(3) img {
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+.animation-container:hover img {
+  animation-play-state: running;
+}
+
+@keyframes image-cycle {
   0% {
     opacity: 1;
   }
-  100% {
+  33.33% {
     opacity: 1;
   }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
+  33.34% {
+    opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
-/* Aktivní snímek bude viditelný a animovaný */
-.frame.active {
-  animation: fadeIn 0.5s forwards; /* Fade in animace */
-}
 
-.frame.hidden {
-  animation: fadeOut 0.5s forwards; /* Fade out animace */
-}
+
 
 body {
   background-color: #121a1d;
@@ -112,6 +102,7 @@ a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #a5a6a2;
+  text-decoration: none;
   font-weight: 400;
   font-size: 35px;
   top: 720px;
@@ -129,6 +120,7 @@ a:hover {
 .hlavnimenu {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-decoration: none;
   color: #a5a6a2;
   font-weight: 400;
   font-size: 25px;
@@ -140,20 +132,3 @@ a:hover {
   width: 400px;
 }
 
-@media (max-width: 330px) {
-  body {
-    flex-direction: column; /* Při menší šířce se objekty přeskupí na sloupec */
-    align-items: flex-start; /* Zarovná objekty k levé straně */
-  }
-
-  .container {
-    flex-direction: column; /* Sloupec pro responsiveness */
-    align-items: flex-start;
-    width: 50%;
-  }
-
-  .text {
-    flex-direction: column; /* Při menší šířce se objekty přeskupí na sloupec */
-    align-items: flex-start; /* Zarovná objekty k levé straně */
-  }
-}
