@@ -37,8 +37,9 @@
 }
 
 .video {
-
-  height: 400px;
+  
+  top:550px;
+  height: 480px;
 }
 
 /* Přidání klíčových snímků pro animaci */
