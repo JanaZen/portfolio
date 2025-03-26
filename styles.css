@@ -4,16 +4,16 @@
   background-position: center; /* Zarovnej obrázek na střed */
 }
 
-/* #frame2 {
+#frame2 {
   background-image: url(image/ANIMACE_ZAVERECKACKA02.png);
   background-size: cover; /* Obrázek pokryje celý frame */
   background-position: center; /* Zarovnej obrázek na střed */
 }
 
-/* #frame3 {
+#frame3 {
   background-image: url(image/ANIMACE_ZAVERECKA03.png);
   background-size: cover; /* Obrázek pokryje celý frame */
-  background-position: center; /* Zarovnej obrázek na střed */ 
+  background-position: center; /* Zarovnej obrázek na střed */
 }
 
 .animation-container {
