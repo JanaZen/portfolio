@@ -13,7 +13,7 @@ img {
   position: relative;
   align-items: center;
   top: 1350px;
-  left:50px;
+  left:150px;
 }
 
 h1 {
@@ -21,10 +21,10 @@ h1 {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #a5a6a2;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 50px;
   position: absolute;
   align-items: center;
-  top: 70px;
+  top: 40px;
   right: 720px;
 }
 
@@ -36,7 +36,7 @@ h2 {
   font-size: 40px;
   position: absolute;
   align-items: center;
-  top: 750px;
+  top: 950px;
   right: 720px;
 }
 
@@ -45,7 +45,7 @@ h2 {
   width: auto;
   position: absolute;
   align-items: center;
-  top: 300px;
+  top: 200px;
   right: 500px;
 }
 
