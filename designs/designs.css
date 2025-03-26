@@ -5,9 +5,15 @@ body {
 img {
 
   height: 350px;
+  
+}
+
+.latky {
+
   display: flexbox;
   align-items: center;
-
+  top: 550px;
+  right:500px;
 }
 
 h1 {
@@ -49,8 +55,3 @@ a:hover {
   color: #f78419;
 }
 
-.latky {
-
-  top: 550px;
-  right:500px;
-}
