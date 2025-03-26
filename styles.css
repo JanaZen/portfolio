@@ -56,6 +56,16 @@
   }
 }
 
+body {
+  background-color: #121a1d;
+  display: flex;
+  justify-content: center; /* Zarovná obsah na střed */
+  align-items: center; /* Vertikálně centrovat */
+  height: 100vh; /* Výška 100% viewportu */
+  margin: 0;
+  padding: 20px; /* Odsazení kolem obsahu */
+  box-sizing: border-box; /* U zahrnutí paddingu do celkové šířky */
+}
 
 h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
