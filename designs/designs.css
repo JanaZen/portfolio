@@ -10,10 +10,10 @@ img {
 
 .latky {
   
-  position: absolute;
+  position: relative;
   align-items: center;
-  top: 550px;
-  right:500px;
+  top: 1100px;
+  right:110px;
 }
 
 h1 {
