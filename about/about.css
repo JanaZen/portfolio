@@ -38,6 +38,7 @@
 
 .video {
   
+  position: absolute;
   left: 450px;
   top:790px;
   height: 480px;
