@@ -36,6 +36,11 @@
   align-items: center;
 }
 
+.video {
+
+  height: 400px;
+}
+
 /* Přidání klíčových snímků pro animaci */
 @keyframes fadeIn {
   0% {
