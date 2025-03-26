@@ -20,7 +20,7 @@
   width: 100%;
   height: auto;
 
-  animation: image-cycle 1s infinite step-start;
+  animation: image-cycle 1.5s infinite step-start;
   animation-play-state: paused;
 }
 
