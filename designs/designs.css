@@ -10,8 +10,6 @@ img {
 
 .latky {
 
-  display: flexbox;
-  align-items: center;
   top: 550px;
   right:500px;
 }
