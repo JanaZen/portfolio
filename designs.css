@@ -1,0 +1,113 @@
+body {
+  background-color: #121a1d;
+}
+
+
+img {
+
+  width: 500px;
+}
+
+
+.moodboards {
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #a5a6a2;
+  font-weight: 400;
+  font-size: 30px;
+  position: absolute;
+  align-items: center;
+  top: 1700px;
+  right: 720px;
+}
+
+.motivy {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #a5a6a2;
+  font-weight: 400;
+  font-size: 30px;
+  position: absolute;
+  align-items: center;
+  top: 920px;
+  right: 720px;
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #a5a6a2;
+  font-weight: 600;
+  font-size: 50px;
+  position: absolute;
+  align-items: center;
+  top: 40px;
+  right: 720px;
+}
+
+.designlatek {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #a5a6a2;
+  font-weight: 400;
+  font-size: 30px;
+  position: absolute;
+  align-items: center;
+  top: 140px;
+  right: 720px;
+}
+
+.latky {
+  
+  position: relative;
+  align-items: center;
+  top: 220px;
+  left:290px;
+}
+
+.designy {
+  
+  position: relative;
+  align-items: center;
+  top: 410px;
+  left:490px;
+}
+
+.moodboardy {
+  
+  position: relative;
+  align-items: center;
+  top: 600px;
+  left:290px;
+}
+
+
+.figmadesings {
+  height: 1024px;
+  width: auto;
+  position: absolute;
+  align-items: center;
+  top: 2500px;
+  right: 500px;
+}
+
+
+a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #a5a6a2;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  top: 2400px;
+  right: 630px;
+  text-align: center;
+  position: absolute;
+  height: 700px;
+  width: 400px;
+}
+
+a:hover {
+  color: #f78419;
+}
+
