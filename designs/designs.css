@@ -68,10 +68,9 @@ h1 {
 
 .designy {
   
-  display: table-column;
   position: relative;
   align-items: center;
-  top: 300px;
+  top: 450px;
   left:290px;
 }
 
@@ -79,7 +78,7 @@ h1 {
   
   position: relative;
   align-items: center;
-  top: 450px;
+  top: 600px;
   left:290px;
 }
 
