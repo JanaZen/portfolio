@@ -3,6 +3,11 @@ body {
 }
 
 
+img {
+
+  width: 350px;
+}
+
 .latky {
   
   position: relative;
@@ -23,7 +28,7 @@ body {
   
   position: relative;
   align-items: center;
-  top: 1950px;
+  top: 2300px;
   left:290px;
 }
 
