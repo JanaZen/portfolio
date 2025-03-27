@@ -16,6 +16,22 @@ img {
   left:290px;
 }
 
+.moodboardy {
+  
+  position: relative;
+  align-items: center;
+  top: 1550px;
+  left:290px;
+}
+
+.designy {
+  
+  position: relative;
+  align-items: center;
+  top: 1550px;
+  left:290px;
+}
+
 h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
