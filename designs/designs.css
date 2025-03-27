@@ -2,11 +2,6 @@ body {
   background-color: #121a1d;
 }
 
-img {
-
-  height: 350px;
-  
-}
 
 .latky {
   
@@ -28,7 +23,7 @@ img {
   
   position: relative;
   align-items: center;
-  top: 1550px;
+  top: 1950px;
   left:290px;
 }
 
