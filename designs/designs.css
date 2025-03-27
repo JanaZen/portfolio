@@ -18,7 +18,7 @@ img {
   font-size: 30px;
   position: absolute;
   align-items: center;
-  top: 1020px;
+  top: 2020px;
   right: 720px;
 }
 
@@ -62,12 +62,13 @@ h1 {
   
   position: relative;
   align-items: center;
-  top: 150px;
+  top: 180px;
   left:290px;
 }
 
 .designy {
   
+  display: table-column;
   position: relative;
   align-items: center;
   top: 300px;
@@ -78,7 +79,7 @@ h1 {
   
   position: relative;
   align-items: center;
-  top: 550px;
+  top: px;
   left:290px;
 }
 
